@@ -3,10 +3,10 @@ body {
 }
 
 .breakLine {
-    border-bottom: 1px solid rgb(189, 186, 186);
-    direction: ltr;
-    display: flex;
-    margin: 1rem 1rem 0.5rem 1rem;
+  border-bottom: 1px solid rgb(189, 186, 186);
+  direction: ltr;
+  display: flex;
+  margin: 1rem 1rem 0.5rem 1rem;
 }
 
 button {
@@ -26,10 +26,15 @@ button {
   width: 22.4rem;
 }
 
+.emlphn,
+.pass {
+  padding-left: 1.5rem;
+}
+
 h1 {
   color: rgb(37, 114, 214);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0;
 }
 
@@ -82,16 +87,16 @@ h1 {
 }
 
 .newAccount {
-    background-color: rgb(17, 192, 17);
-    height: 3rem;
-    margin: 1rem 5rem 2rem 5rem;
-    width: 15rem;
+  background-color: rgb(17, 192, 17);
+  height: 3rem;
+  margin: 1rem 5rem 2rem 5rem;
+  width: 15rem;
 }
 
 p {
   flex-wrap: wrap;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
+  font-size: 1.7rem;
   margin: 0;
 }
 
