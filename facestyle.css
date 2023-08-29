@@ -1,3 +1,76 @@
+body {
+  background-color: rgb(236, 243, 247);
+}
+
+button {
+  background-color: rgb(54, 155, 223);
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2.5rem;
+  width: 35rem;
+}
+
+#emailOrphone {
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  outline-color: lightskyblue;
+  width: 22.4rem;
+}
+
 h1 {
-    color: rgb(37, 114, 214);
+  color: rgb(37, 114, 214);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.inputDetails {
+  display: flex;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.inputPassword {
+  display: flex;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.login {
+  background-color: white;
+  border-radius: 0.8rem;
+  justify-content: end;
+  height: 20rem;
+  margin: auto 0 auto 5rem;
+  width: 25rem;
+}
+
+.loginButton {
+  display: flex;
+  margin: 2rem 1rem 2rem 1rem;
+  padding: auto;
+}
+
+.loginPage {
+  display: flex;
+  padding: 5rem 0 7rem 0;
+  margin: auto 2rem;
+}
+
+.msg {
+  flex-wrap: wrap;
+  margin: auto 5rem auto 0;
+  width: 25rem;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+#password {
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  outline-color: lightskyblue;
+  width: 22.6rem;
 }
